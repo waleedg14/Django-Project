@@ -1,19 +1,20 @@
 from django.shortcuts import render
 
-posts =[
+posts = [
     {
         'author': 'Waleed',
-        'title':'Blog post 1',
+        'title': 'Blog Post 1',
         'content': 'First post content',
-        'date_posted': 'August 27, 2025'
+        'date_posted': 'August 27, 2028'
     },
     {
-            'author': 'Japreet',
-        'title':'Blog post 2',
-        'content': 'First post content',
-        'date_posted': 'August 29, 2025'
+        'author': 'Jane Doe',
+        'title': 'Blog Post 2',
+        'content': 'Second post content',
+        'date_posted': 'August 28, 2028'
     }
 ]
+
 
 def home(request):
     context = {
@@ -24,5 +25,3 @@ def home(request):
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
-
-
