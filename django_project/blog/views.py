@@ -8,7 +8,7 @@ posts = [
         'date_posted': 'August 27, 2028'
     },
     {
-        'author': 'Jane Doe',
+        'author': 'Ouiji',
         'title': 'Blog Post 2',
         'content': 'Second post content',
         'date_posted': 'August 28, 2028'
